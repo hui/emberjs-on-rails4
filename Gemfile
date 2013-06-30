@@ -47,3 +47,4 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'ember-rails'
+gem 'bootstrap-sass', '~> 2.3.2.0'

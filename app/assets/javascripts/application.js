@@ -13,4 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require handlebars
+//= require ember
+//= require ember-data
+//= require_self
+//= require emberjs_on_rails4
+EmberjsOnRails4 = Ember.Application.create();
+
 //= require_tree .

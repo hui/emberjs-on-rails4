@@ -1,0 +1,13 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#/">Ember.js on Rails 4</a>
+    <ul class="nav">
+      {{#linkTo 'index' tagName='li'}}<a {{bindAttr href="view.href"}} href="#">Home</a>{{/linkTo}}
+      {{#linkTo 'posts' tagName='li'}}<a {{bindAttr href="view.href"}} href="#">Posts</a>{{/linkTo}}
+    </ul>
+  </div>
+</div>
+
+<div class="container">
+  {{ outlet }}
+</div>

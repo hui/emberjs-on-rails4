@@ -1,0 +1,14 @@
+<div {{bindAttr class=":control-group errorMessage.title:error"}}>
+  <label class="control-label" for="title">Title</label>
+  <div class="controls">
+    {{view Ember.TextField valueBinding="content.title" class="input-xlarge" required="true"}}
+    <span class="help-inline">{{errorMessage.title}}</span>
+  </div>
+</div>
+<div {{bindAttr class=":control-group errorMessage.body:error"}}>
+  <label class="control-label" for="body">Body</label>
+  <div class="controls">
+    {{view Ember.TextArea valueBinding="content.body" class="input-xlarge" rows="10"}}
+    <span class="help-inline">{{errorMessage.body}}</span>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<form class="form-horizontal">
+  <fieldset>
+    <legend>New Post</legend>
+    
+    {{partial "posts/form"}}
+
+    <div class="form-actions">
+      <button type="submit" class="btn btn-primary" {{action 'create'}} {{bindAttr disabled=content.invalid}}>Save changes</button>
+    </div>
+  </fieldset>
+</form>

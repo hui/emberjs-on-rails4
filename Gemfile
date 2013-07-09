@@ -49,3 +49,8 @@ end
 gem 'ember-rails'
 gem 'bootstrap-sass', '~> 2.3.2.0'
 gem 'rails_12factor'
+
+group :development do
+  gem 'rb-fsevent'
+  gem 'guard-livereload'
+end

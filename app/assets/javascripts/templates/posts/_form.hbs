@@ -8,7 +8,7 @@
 <div {{bindAttr class=":control-group errorMessage.body:error"}}>
   <label class="control-label" for="body">Body</label>
   <div class="controls">
-    {{view Ember.TextArea valueBinding="content.body" class="input-xlarge" rows="10"}}
+    {{view EmberjsOnRails4.KindeditorView valueBinding="content.body" class="input-xlarge" rows="20"}}
     <span class="help-inline">{{errorMessage.body}}</span>
   </div>
 </div>
